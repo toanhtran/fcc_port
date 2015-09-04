@@ -1,0 +1,25 @@
+
+/* digital-backgroun:black=#08000B,white = #F7FFFF, purple=#37286B, orange=#81420F
+abstract-city: lavender=#9DADD1, lightblue=#71C2D7, medblue=60BBCE;
+*/
+body {
+
+	background-image: url('../images/digital-background.jpg');
+	font-family: 'Robot Slab', serif;
+}
+@font-face{
+	font-family: Oxin;
+	src: url('../fonts/Oxin.ttf') format('truetype');
+}
+.navbar-brand{
+/*	font:'Oxin',Helvetica, cursive;
+font-family: 'Roboto Slab', serif;
+*/	font-family:'Megrim', cursive;
+}
+.navbar-header{
+	font-family: 'Megrim', cursive;
+	background-color: #08000B;
+	color:#F7FFFF ;
+
+	/*font:'Oxin',Helvetica, cursive;*/
+}
