@@ -3,23 +3,28 @@
 abstract-city: lavender=#9DADD1, lightblue=#71C2D7, medblue=60BBCE;
 */
 body {
-
-	background-image: url('../images/digital-background.jpg');
-	font-family: 'Robot Slab', serif;
+	font-family: 'Megrim', cursive;
+	background-image: url('../images/digital-background.jpg'); 
+ 	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    text-align: center;
+    overflow: auto;
 }
-@font-face{
-	font-family: Oxin;
-	src: url('../fonts/Oxin.ttf') format('truetype');
+@font-face {
+	font-family: StarJedi;
+	src: url('../fonts/StarJedi.ttf') format('truetype');
+}
+@font-face {	
+	font-family: Starjhol;
+	src: url('../fonts/Starjhol.ttf') format('truetype');
 }
 .navbar-brand{
-/*	font:'Oxin',Helvetica, cursive;
-font-family: 'Roboto Slab', serif;
-*/	font-family:'Megrim', cursive;
+	font-family: 'StarJedi','Megrim', cursive;
+	font-size: 22px;
 }
-.navbar-header{
+.nav-right{
 	font-family: 'Megrim', cursive;
-	background-color: #08000B;
-	color:#F7FFFF ;
-
-	/*font:'Oxin',Helvetica, cursive;*/
+	font-size: 16px;
 }
