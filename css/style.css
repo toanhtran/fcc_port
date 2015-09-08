@@ -2,6 +2,12 @@
 /* digital-backgroun:black=#08000B,white = #F7FFFF, purple=#37286B, orange=#81420F
 abstract-city: lavender=#9DADD1, lightblue=#71C2D7, medblue=60BBCE;
 */
+a {
+	color: #289AB7;
+}
+a:hover {
+	color: #CDD9E3;
+}
 body {
 	font-family: 'Megrim', cursive;
 	background-image: url('../images/digital-background.jpg'); 
@@ -24,7 +30,11 @@ body {
 	font-family: 'StarJedi','Megrim', cursive;
 	font-size: 22px;
 }
-.nav-right{
+.navbar-nav navbar-right{
 	font-family: 'Megrim', cursive;
-	font-size: 16px;
+	font-size: 18px;
+	color:#289AB7;
+}
+.text-center{
+	background-color: #CDD9E3;
 }
